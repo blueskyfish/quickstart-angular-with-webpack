@@ -2,7 +2,7 @@
  * Quickstart
  */
 
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 import { AssetService } from '../../service/asset.service';
 
@@ -12,7 +12,9 @@ import { AssetService } from '../../service/asset.service';
 })
 export class LogoComponent implements OnInit {
   imageUrl: String;
-  title = 'Logo Quickstart'
+
+  @Input()
+  title: String;
 
   constructor(private asset: AssetService) {}
 

@@ -10,7 +10,7 @@ import "./app.component.less";
   selector: 'quickstart-app',
   template: `
   <div class="app">
-    <logo-image></logo-image>
+    <logo-image title="Quickstarter"></logo-image>
     <h1>{{title}}</h1>
   </div>
   `
