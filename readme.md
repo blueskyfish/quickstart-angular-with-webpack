@@ -5,6 +5,8 @@
 
 > This is a quickstart project for [Angular 2][angular2]. It use the
 > [Webpack][webpack] and the css processor [Less][less].
+>
+> This project is still in progress.
 
 ## Why this quickstart?
 
@@ -22,7 +24,33 @@ So, I begin with Webpack and choice Less, because it seems pretty easyier.
 I use the exact version of the dependencies in the file `package.json`, because it is easier to find errors.
 
 
+##
 
+
+## Commands
+
+### Develop
+
+```sh
+$ npm start
+```
+Start the develop. The application is served on `localhost:10080`.
+
+### Clean
+
+```sh
+$ npm run clean
+```
+
+Delete the directory `dist`.
+
+### Build
+
+```sh
+$ npm run build
+```
+
+Build the application for the production. The result is in the directory `dist/prod`.
 
 
 ## License
@@ -48,7 +76,6 @@ PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIG
 HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
 CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
 OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
 ```
 
 

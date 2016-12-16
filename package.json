@@ -6,7 +6,9 @@
   "license": "MIT",
   "author": "BlueSkyFish <blueskyfish@kirchnerei.de>",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --port 10080"
+    "start": "webpack-dev-server --inline --progress --port 10080",
+    "clean": "trash ./dist",
+    "build": "trash ./dist/prod && webpack --config ./config/webpack.prod.js"
   },
   "repository": {
     "type": "git",
