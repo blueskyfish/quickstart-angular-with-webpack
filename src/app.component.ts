@@ -11,7 +11,7 @@ import "./app.component.less";
   template: `
   <div class="app">
     <logo-image title="Quickstarter"></logo-image>
-    <h1>{{title}}</h1>
+    <h1><i class="fa fa-home"></i> {{title}}</h1>
   </div>
   `
 })
