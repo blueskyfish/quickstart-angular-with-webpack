@@ -2,7 +2,11 @@
 # Quickstart
 #
 
+# Jetbrains
+.idea/
+*.iml
 
+# Mac
 .DS_Store
 
 dist/

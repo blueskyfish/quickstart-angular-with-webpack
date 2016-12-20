@@ -11,6 +11,7 @@ import { AssetService } from '../../service/asset.service';
   template: '<img src="{{imageUrl}}" title="{{title}}" alt="{{title}}"/>'
 })
 export class LogoComponent implements OnInit {
+
   imageUrl: String;
 
   @Input()

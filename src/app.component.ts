@@ -2,7 +2,7 @@
  * Quickstart
  */
 
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 
 import "./app.component.less";
 
@@ -10,8 +10,9 @@ import "./app.component.less";
   selector: 'quickstart-app',
   template: `
   <div class="app">
-    <logo-image title="Quickstarter"></logo-image>
+    <nav-bar></nav-bar>
     <h1><i class="fa fa-home"></i> {{title}}</h1>
+    <logo-image title="Quickstart for Angular"></logo-image>
   </div>
   `
 })

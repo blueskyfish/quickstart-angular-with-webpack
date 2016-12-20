@@ -15,7 +15,7 @@ module.exports = {
     polyfills: './src/polyfills.ts'
   },
   resolve: {
-    extensions: ['', '.ts', '.js']
+    extensions: ['', '.js', '.ts']
   },
 
   module: {
@@ -76,4 +76,4 @@ module.exports = {
       }
     ])
   ]
-}
+};
