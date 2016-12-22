@@ -2,6 +2,7 @@
  * Quickstart with Angular and Less - https://github.com/blueskyfish/quickstart-angular-with-webpack.git
  */
 
+const webpack = require('webpack');
 const webpackMerge = require('webpack-merge');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const commonConfig = require('./webpack.common');
@@ -19,7 +20,7 @@ module.exports = webpackMerge(commonConfig, {
 
   plugins: [
     new webpack.DefinePlugin({
-      'process.env.NODE_ENV': 'develop'
+      'process.env.NODE_ENV': JSON.stringify('develop')
     }),
     new ExtractTextPlugin('[name].css')
   ],

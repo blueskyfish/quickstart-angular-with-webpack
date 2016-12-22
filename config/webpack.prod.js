@@ -19,11 +19,13 @@ module.exports = webpackMerge(commonConfig, {
 
   plugins: [
     new webpack.DefinePlugin({
-      'process.env.NODE_ENV': 'production'
+      'process.env.NODE_ENV': JSON.stringify('production')
     }),
     new ExtractTextPlugin('[name]-[chunkhash].css'),
     new webpack.optimize.UglifyJsPlugin({
+      comments: false,
       compress:{
+        angular: true,
         warnings: true
       }
     })
