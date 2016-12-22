@@ -12,7 +12,7 @@
 
 I come from Angular 1 and building application with [Gulp][gulp]. It is very confused to start with Angular 2. On one hand the tutorials tell with [Systemjs][Systemjs] and from other hand it use [Webpack][webpack].
 
-So, I begin with Webpack and choice Less, because it seems pretty easyier.
+So, I begin with Webpack and choice Less, because it seems pretty easier.
 
 ## Requirements
 
@@ -24,8 +24,21 @@ So, I begin with Webpack and choice Less, because it seems pretty easyier.
 I use the exact version of the dependencies in the file `package.json`, because it is easier to find errors.
 
 
-##
+## Quickstart
 
+Following the short commands in a terminal:
+
+```sh
+$ git clone https://github.com/blueskyfish/quickstart-angular-with-webpack.git
+$ npm install
+$ npm start
+$ open http://localhost:10080/
+```
+
+* Clone from the repository https://github.com/blueskyfish/quickstart-angular-with-webpack.git
+* Install the dependencies node packages
+* start the webpack deployment for the local machine
+* start your favour browser and open http://localhost:10080/
 
 ## Commands
 

@@ -10,14 +10,21 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { LogoComponent }   from './components/logo-image/logo-image.component';
 
 import { AssetService }    from './service/asset.service';
+import { AppRoutingModule } from "./app-routing.module";
+import { HomeViewComponent } from "./views/home-view.component";
+import { PageNotFoundViewComponent } from "./views/page-not-found-view.component";
+
 
 @NgModule({
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule,
   ],
   declarations: [
     AppComponent,
+    HomeViewComponent,
+    PageNotFoundViewComponent,
     NavBarComponent,
     LogoComponent
   ],

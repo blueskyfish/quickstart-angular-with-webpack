@@ -4,12 +4,9 @@
 
 import { Component } from '@angular/core';
 
-import "./app.component.less";
-
 @Component({
-  selector: 'quickstart-app',
-  templateUrl: './app.component.html'
+  templateUrl: './home-view.component.html'
 })
-export class AppComponent {
-  title = 'Tour of Heroes';
+export class HomeViewComponent {
+
 }
